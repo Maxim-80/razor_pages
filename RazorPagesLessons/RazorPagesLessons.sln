@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesGeneral", "RazorPagesGeneral\RazorPagesGeneral.csproj", "{31693AE0-9906-4B33-BEBE-A5947C164949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesLessons.Models", "RazorPagesLessons.Models\RazorPagesLessons.Models.csproj", "{88693DC1-AE58-44D5-B9B6-CEB149AC830D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesLessons.Models", "RazorPagesLessons.Models\RazorPagesLessons.Models.csproj", "{88693DC1-AE58-44D5-B9B6-CEB149AC830D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesLessons.Services", "RazorPagesLessons.Services\RazorPagesLessons.Services.csproj", "{F06318BE-208C-4535-B421-AFBEB8B1CB75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{88693DC1-AE58-44D5-B9B6-CEB149AC830D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88693DC1-AE58-44D5-B9B6-CEB149AC830D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88693DC1-AE58-44D5-B9B6-CEB149AC830D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06318BE-208C-4535-B421-AFBEB8B1CB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06318BE-208C-4535-B421-AFBEB8B1CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06318BE-208C-4535-B421-AFBEB8B1CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06318BE-208C-4535-B421-AFBEB8B1CB75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

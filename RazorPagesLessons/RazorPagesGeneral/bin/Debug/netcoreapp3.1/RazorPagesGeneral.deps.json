@@ -26,6 +26,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
+          "RazorPagesLessons.Models": "1.0.0",
+          "RazorPagesLessons.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1589,6 +1591,25 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "RazorPagesLessons.Models/1.0.0": {
+        "runtime": {
+          "RazorPagesLessons.Models.dll": {}
+        },
+        "compile": {
+          "RazorPagesLessons.Models.dll": {}
+        }
+      },
+      "RazorPagesLessons.Services/1.0.0": {
+        "dependencies": {
+          "RazorPagesLessons.Models": "1.0.0"
+        },
+        "runtime": {
+          "RazorPagesLessons.Services.dll": {}
+        },
+        "compile": {
+          "RazorPagesLessons.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4061,6 +4082,16 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "RazorPagesLessons.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RazorPagesLessons.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
