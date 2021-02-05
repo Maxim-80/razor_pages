@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cy5O+Oomg2GYe0X5xr0/Ow7yJTr0MuPM6ZSf+UVycNJAIFTV2rh4eMpFuGb9tDF1/3aJv5WtsGDd/NSHGf+6kg==",
+  "success": true,
+  "projectFilePath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
