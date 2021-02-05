@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {}
+    "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {}
   },
   "projects": {
-    "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {
+    "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
+        "projectUniqueName": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
         "projectName": "RazorPagesGeneral",
-        "projectPath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
-        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-        "outputPath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\obj\\",
+        "projectPath": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
+        "packagesPath": "C:\\Users\\Kurenkov.M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kurenkov.M\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +44,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -61,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
