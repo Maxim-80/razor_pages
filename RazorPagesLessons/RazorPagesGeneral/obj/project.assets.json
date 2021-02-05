@@ -6126,23 +6126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kurenkov.M\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Максим\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
+      "projectUniqueName": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
       "projectName": "RazorPagesGeneral",
-      "projectPath": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
-      "packagesPath": "C:\\Users\\Kurenkov.M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kurenkov.M\\Razor\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\obj\\",
+      "projectPath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
+      "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+      "outputPath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Kurenkov.M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6193,7 +6189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
