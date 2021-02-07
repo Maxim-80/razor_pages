@@ -19,8 +19,15 @@ using RazorPagesGeneral;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\Pages\_ViewImports.cshtml"
+using RazorPagesLessons.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c8fc7511b2f8d6a3aa7242eea6700bf13ea2ab78", @"/Pages/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8ab7ceaac2ce364bc24051f31b0ad31fe5d71166", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2220f812cf1109be5ca68f407f01a4689dd3e4aa", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/images/banner.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -59,7 +66,7 @@ using RazorPagesGeneral;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"row text-center\">\r\n    <div class=\"col\">\r\n        <h1>Welcome!</h1>\r\n        <h2>to our first RAZOR PAGE project</h2>\r\n    </div>\r\n</div>\r\n\r\n<div class=\"row text-center\">\r\n    <div class=\"col\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c8fc7511b2f8d6a3aa7242eea6700bf13ea2ab784444", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c8fc7511b2f8d6a3aa7242eea6700bf13ea2ab784646", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

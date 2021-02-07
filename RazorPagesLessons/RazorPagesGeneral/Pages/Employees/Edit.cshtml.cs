@@ -9,13 +9,13 @@ using RazorPagesLessons.Services;
 
 namespace RazorPagesGeneral.Pages.Employees
 {
-    public class DetailsModel : PageModel
+    public class EditModel : PageModel
     {
-        public Employee Employee { get; set; }
+        public Employee Employee { get; private set; }
 
         private readonly IEmployeeRepository _employeeRepository;
 
-        public DetailsModel(IEmployeeRepository employeeRepository)
+        public EditModel(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
         }

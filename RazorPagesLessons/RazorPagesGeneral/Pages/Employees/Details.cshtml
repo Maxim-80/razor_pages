@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model RazorPagesGeneral.Pages.Employees.DetailsModel
 @{
     ViewData["Title"] = "Employee Details";
@@ -32,7 +32,7 @@
                 <div class="col">
                     <div class="card-footer text-center" style=" background-color: rgba(0,0,0,.25)">
                         <a asp-page="Employees" class="btn btn-success buttonShadow">Back</a>
-                        <a href="#" class="btn btn-primary buttonShadow">Edit</a>
+                        <a asp-page="Edit" asp-route-Id="@Model.Employee.Id" class="btn btn-primary buttonShadow">Edit</a>
                         <a href="#" class="btn btn-danger buttonShadow">Delete</a>
                     </div>
                 </div>
