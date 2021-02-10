@@ -17,6 +17,10 @@ namespace RazorPagesGeneral.Pages.Employees
         public Employee Employee { get; private set; }
 
         [BindProperty]
+        public bool Notify { get; set; }
+        public string Message { get; set; }
+
+        [BindProperty]
         public IFormFile Photo { get; set; }
 
         private readonly IEmployeeRepository _employeeRepository;
@@ -56,7 +60,23 @@ namespace RazorPagesGeneral.Pages.Employees
 
             Employee = _employeeRepository.Update(employee);
 
+            TempData["SuccessMessage"] = $"Update {Employee.Name} successful!";
+
             return RedirectToPage("Employees");
+        }
+
+        public void OnPostUpdateNotificationPreference(int id)
+        {
+            if (Notify)
+            {
+                Message = "Thank you for turn notifications";
+            }
+            else
+            {
+                Message = "You have turned off email notifications";
+            }
+
+            Employee = _employeeRepository.GetEmployee(id);
         }
 
         private string ProcessUpdateFile()
