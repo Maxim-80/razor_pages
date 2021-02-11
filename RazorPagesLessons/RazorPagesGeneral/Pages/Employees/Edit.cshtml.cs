@@ -14,7 +14,8 @@ namespace RazorPagesGeneral.Pages.Employees
 {
     public class EditModel : PageModel
     {
-        public Employee Employee { get; private set; }
+        [BindProperty]
+        public Employee Employee { get; set; }
 
         [BindProperty]
         public bool Notify { get; set; }
@@ -32,9 +33,16 @@ namespace RazorPagesGeneral.Pages.Employees
             _webHostEnvironment = webHostEnvironment;
         }
 
-        public IActionResult OnGet(int id)
+        public IActionResult OnGet(int? id)
         {
-            Employee = _employeeRepository.GetEmployee(id);
+            if (id.HasValue)
+            {
+                Employee = _employeeRepository.GetEmployee(id.Value);
+            }
+            else
+            {
+                Employee = new Employee();
+            }
 
             if (Employee == null)
             {
@@ -44,23 +52,37 @@ namespace RazorPagesGeneral.Pages.Employees
             return Page();
         }
 
-        public IActionResult OnPost(Employee employee)
+        public IActionResult OnPost()
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
             if (Photo != null)
             {
-                if (employee.PhotoPath != null)
+                if (Employee.PhotoPath != null)
                 {
-                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", employee.PhotoPath);
+                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", Employee.PhotoPath);
 
                     System.IO.File.Delete(filePath);
                 }
 
-                employee.PhotoPath = ProcessUpdateFile();
+                Employee.PhotoPath = ProcessUpdateFile();
             }
 
-            Employee = _employeeRepository.Update(employee);
+            if (Employee.Id > 0)
+            {
+                Employee = _employeeRepository.Update(Employee);
 
-            TempData["SuccessMessage"] = $"Update {Employee.Name} successful!";
+                TempData["SuccessMessage"] = $"Update {Employee.Name} successful!";
+            }
+            else
+            {
+                Employee = _employeeRepository.Add(Employee);
+
+                TempData["SuccessMessage"] = $"Adding {Employee.Name} successful!";
+            }
 
             return RedirectToPage("Employees");
         }

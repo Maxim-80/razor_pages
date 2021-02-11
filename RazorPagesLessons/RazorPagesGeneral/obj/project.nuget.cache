@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r8yBc01Qr3nWstx5VFvhueayQDVhROcwvmUtIDltL/D9S6ILCkn2Kvv1bJKvso1tbqXA4LBOOm16Z3kuS5GMwQ==",
+  "dgSpecHash": "1h25xbf3UcmkpmCIKg0ttSms/28uLQRyKLH9hRiG9j0mFH4bLiX62Umgg432tm7j/pliBkEbaK7K/giAWbQq2w==",
   "success": true,
   "projectFilePath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\Максим\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\system.composition\\1.0.31\\system.composition.1.0.31.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\system.composition.attributedmodel\\1.0.31\\system.composition.attributedmodel.1.0.31.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\system.composition.convention\\1.0.31\\system.composition.convention.1.0.31.nupkg.sha512",

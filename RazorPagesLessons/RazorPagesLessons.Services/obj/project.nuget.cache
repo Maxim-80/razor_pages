@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "r90/JmCbrX4Ypl7NfjYnQ8kYy0nR8E/MeGX8e+V/gV1wK/wwpMEKgzcacXqX9GCn/HaaCLrasZWEG05DhQ9L1g==",
+  "dgSpecHash": "fOEJRo/A0XjfQxlO0+1aovkUid5mTUQxZTRylKjQ6oovHhCEVLuOxHy7NpwA1Vc6twkrdJ7YQTjmKNLUSdDo5Q==",
   "success": true,
   "projectFilePath": "D:\\razor_pages\\razor_pages\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Максим\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
