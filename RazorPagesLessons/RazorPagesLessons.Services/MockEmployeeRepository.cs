@@ -49,6 +49,18 @@ namespace RazorPagesLessons.Services
             return newEmployee;
         }
 
+        public Employee Delete(int id)
+        {
+            var employee = _employeeList.FirstOrDefault(x => x.Id == id);
+
+            if (employee != null)
+            {
+                _employeeList.Remove(employee);
+            }
+
+            return employee;
+        }
+
         public IEnumerable<Employee> GetAllEmployees()
         {
             return _employeeList;

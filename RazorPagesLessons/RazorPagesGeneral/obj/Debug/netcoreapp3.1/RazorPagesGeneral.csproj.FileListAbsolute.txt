@@ -801,3 +801,5 @@ D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcore
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Edit.cshtml.g.cs
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Delete.cshtml.g.cs
+D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_DisplayEmployeePartial.cshtml.g.cs
