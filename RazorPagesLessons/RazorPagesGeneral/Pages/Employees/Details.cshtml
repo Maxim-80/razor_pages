@@ -7,6 +7,13 @@
 
 <div class="row justify-content-center m-3">
     <div class="col col-lg-8">
+        @*@await Component.InvokeAsync("HeadCount", new { dept = Model.Employee.Department})*@
+        <vc:head-count dept="@Model.Employee.Department"></vc:head-count>
+    </div>
+</div>
+
+<div class="row justify-content-center m-3">
+    <div class="col col-lg-8">
         <div class="card cardBoxShadow">
 
             <div class="card-header cardHeaderStyle text-center">
@@ -22,7 +29,7 @@
                     </div>
                     <div class="col col-lg-3">
                         <div style="border-right: 1px solid rgba(0,0,0,.1)">
-                            <img class="card-img-top imageThumbnail border border-primary" style="background-color: #dle7ff" src="@photoPath" asp-append-version="true"/>
+                            <img class="card-img-top imageThumbnail border border-primary" style="background-color: #dle7ff" src="@photoPath" asp-append-version="true" />
                         </div>
                     </div>
                 </div>
