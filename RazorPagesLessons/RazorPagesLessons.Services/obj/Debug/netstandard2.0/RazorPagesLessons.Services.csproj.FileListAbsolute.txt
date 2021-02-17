@@ -6,7 +6,6 @@ D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\bin\Debu
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csprojAssemblyReference.cache
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.AssemblyInfoInputs.cache
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.AssemblyInfo.cs
-D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csproj.CoreCompileInputs.cache
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csproj.CopyComplete
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.dll
 D:\razor_pages\razor_pages\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.pdb
