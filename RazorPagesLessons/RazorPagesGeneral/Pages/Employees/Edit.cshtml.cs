@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -65,7 +62,10 @@ namespace RazorPagesGeneral.Pages.Employees
                 {
                     string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", Employee.PhotoPath);
 
-                    System.IO.File.Delete(filePath);
+                    if (Employee.PhotoPath != "noimage.png")
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
                 }
 
                 Employee.PhotoPath = ProcessUpdateFile();
