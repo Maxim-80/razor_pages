@@ -1,4 +1,5 @@
-﻿using RazorPagesLessons.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using RazorPagesLessons.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,10 @@ namespace RazorPagesLessons.Services
 
         public Employee Add(Employee newEmployee)
         {
-            _context.Employees.Add(newEmployee);
-            _context.SaveChanges();
-            
+            //_context.Employees.Add(newEmployee);
+            //_context.SaveChanges();
+            _context.Database.ExecuteSqlRaw("spAddNewEmployee {0}, {1}, {2}, {3}", newEmployee.Name, newEmployee.Email, newEmployee.PhotoPath, newEmployee.Department);
+
             return newEmployee;
         }
 
@@ -55,12 +57,14 @@ namespace RazorPagesLessons.Services
 
         public IEnumerable<Employee> GetAllEmployees()
         {
-            return _context.Employees;
+            //return _context.Employees;
+            return _context.Employees.FromSqlRaw<Employee>("Select * from Employes").ToList();
         }
 
         public Employee GetEmployee(int id)
         {
-            return _context.Employees.Find(id);
+            //return _context.Employees.Find(id);
+            return _context.Employees.FromSqlRaw<Employee>("CodeFirstSpGetEmployeeById {0}", id).ToList().FirstOrDefault();
         }
 
         public IEnumerable<Employee> Search(string searchTerm)
